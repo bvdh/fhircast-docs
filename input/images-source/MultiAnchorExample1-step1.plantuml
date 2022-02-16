@@ -1,0 +1,33 @@
+@startuml
+
+participant EHR
+participant "FHIRcast\nHub" as Hub
+participant Viewer
+participant "FHIR\nserver" as FS
+
+note over of EHR
+  EHR selects a Patient
+  context: E1 and P1
+end note
+EHR -> Hub: Patient-open(P1)
+Hub -> Viewer: Patient-open(P1)
+note over of Viewer
+  context: P1
+end note
+EHR -> Hub: Encounter-open(P1,E1)
+Hub -> Viewer: Encounter-open(P1,E1)
+note over of Viewer
+  context: P1 and E1
+end note
+
+note over of Viewer
+  Viewer searches ImagingStudies
+end note
+Viewer -> FS: ImagingStudy?subject=P1&encounter=E1
+note over of Viewer
+  Viewer selects IS1(P1,E1)
+  Context: IS1, P1, E1
+end note
+Viewer -> Hub: ImagingStudy-open(IS1,E1,P1)
+
+@enduml

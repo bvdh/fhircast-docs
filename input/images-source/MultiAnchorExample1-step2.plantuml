@@ -1,0 +1,21 @@
+@startuml
+
+
+participant EHR
+participant "FHIRcast\nHub" as Hub
+participant Viewer
+participant "FHIR\nserver" as FS
+
+note over of EHR
+  context: -
+end note
+EHR -> Hub: Patient-close(P1)
+Hub -> Viewer: Patient-close(P1)
+note over of Viewer
+  context: -
+end note
+Viewer -> Hub: ImagingStudy-close(IS1)
+EHR -> Hub: Encounter-open(P1,E1)
+Hub -> Viewer: Encounter-open(P1,E1)
+
+@enduml
