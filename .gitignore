@@ -9,9 +9,14 @@ site/
 
 .idea/
 
-# FHIR publisher 
-input-cache/
-temp/
+# Docker stuff
+Dockerfile
+nginx.conf
+updateServer.sh
+
+# IG publisher
 fsh-generated/
-template/
+input-cache/
 output/
+temp/
+template/

@@ -8,6 +8,12 @@ name: FHIRcast
 status: draft
 version: current
 fhirVersion: 4.0.1
+copyrightYear: 2021, 2022
+releaseLabel: ci-build
+publisher:
+  name: FHIR InM
+  url: http://hl7.org
+
 pages:
   index.md: 
     title: Introduction
@@ -85,11 +91,6 @@ pages:
     title: Change log
   7_open-issues.md:
     title: Open Issues
-copyrightYear: 2021+
-releaseLabel: ci-build
-publisher:
-  name: FHIR InM
-  url: http://hl7.org
 
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮

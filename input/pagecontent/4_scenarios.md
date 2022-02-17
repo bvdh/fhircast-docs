@@ -5,4 +5,5 @@ This chapter contains a set of typical deployment scenarios:
 [Security considerations](4-3-security-considerations.html) |
 [Multi-tab considerations](4-4-multitab-considerations.html) |
 [Multi-anchor considerations](4-5-multi-anchor-considerations.html) |
-[Content sharing](4-6-content-sharing.html) |
+[Content sharing for Radiology](4-6-content-sharing.html) |
+[FHIR server based content sharing](4-7-fhir-server-based-content-sharing.html) |
