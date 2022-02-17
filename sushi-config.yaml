@@ -85,6 +85,8 @@ pages:
       title: Multi-anchor considerations
     4-6-content-sharing.md:
       title: Content Sharing
+    4-7-fhir-server-based-content-sharing.md:
+      title: FHIR server based content sharing
   5_glossary.md:
     title: Glossary
   6_change-log.md:
