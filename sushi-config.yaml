@@ -8,7 +8,7 @@ name: FHIRcast
 status: draft
 version: current
 fhirVersion: 4.0.1
-copyrightYear: 2021, 2022
+copyrightYear: 2021+
 releaseLabel: ci-build
 publisher:
   name: FHIR InM
