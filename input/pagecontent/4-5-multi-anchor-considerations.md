@@ -13,8 +13,8 @@ The [FHIRcast context change events](3-Events.html) reflect this concept in the 
 |-------------|--------------|-----------------|
 | Patient     | patient | |
 | Encounter   | encounter | patient |
-| ImagingStudy | imagingstudy | encounter, patient |
-| DiagnosticReport | imagingstudy | encounter, patient |
+| ImagingStudy | imagingstudy | patient |
+| DiagnosticReport | diagnosticreport | imagingstudy, patient |
 
 The challenge is to keep the overall context in sync.
 
