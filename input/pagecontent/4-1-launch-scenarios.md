@@ -51,7 +51,6 @@ Following the OAuth2.0 handshake, the authorization server returns the FHIRcast 
   "encounter": "456",
   "hub.url" : "https://hub.example.com",
   "hub.topic": "2e5e1b95-5c7f-4884-b19a-0b058699318b"
-  "hub.topic": "fdb2f928-5546-4f52-87a0-0648e9ded065"
 }
 ```
 
@@ -82,7 +81,7 @@ In this scenario, the user authorizes the app to synchronize to her session by a
   "patient":  "123",
   "expires_in": 3600,
   "encounter": "456",
-  "imagingstudy": "789",
+  "fhirContext": ["ImagingStudy/789"],
   "hub.url" : "https://hub.example.com",
   "hub.topic": "fdb2f928-5546-4f52-87a0-0648e9ded065",
 }
