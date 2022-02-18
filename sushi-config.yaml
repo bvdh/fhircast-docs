@@ -3,11 +3,17 @@
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.uv.fhircast
-canonical: http://hl7.org/fhir/fhircast
+canonical: http://hl7.org/fhir/uv/fhircast
 name: FHIRcast
 status: draft
 version: current
 fhirVersion: 4.0.1
+releaseLabel: ci-build
+copyrightYear: 2021+
+publisher:
+  name: FHIR InM
+  url: http://hl7.org
+
 pages:
   index.md: 
     title: Introduction
@@ -85,12 +91,6 @@ pages:
     title: Change log
   7_open-issues.md:
     title: Open Issues
-copyrightYear: 2021+
-releaseLabel: ci-build
-publisher:
-  name: FHIR InM
-  url: http://hl7.org
-
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
