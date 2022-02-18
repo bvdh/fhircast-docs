@@ -7,6 +7,7 @@ canonical: http://hl7.org/fhir/uv/fhircast/ImplementationGuide/hl7.fhir.uv.fhirc
 name: FHIRcast
 status: draft
 version: current
+jurisdiction: hl7.fhir.uv.fhircast
 fhirVersion: 4.0.1
 releaseLabel: ci-build
 copyrightYear: 2021+
