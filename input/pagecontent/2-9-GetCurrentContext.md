@@ -10,7 +10,7 @@ The Requester makes an HTTP GET call to the following URL:
 
 ### Get current context Response
 
-This method returns an object containing the current context of a topic. The current context is made up of one or more "top-level" contextual resources and the type of the anchor context in the `context.type` field.  For example, if the current context was established using a [`Patient-open`](3-2-patient-open.html) request the returned object will contain `context.type: "Patient"`.  If the current context was created by a [`DiagnosticReport-open`](3-12-diagnosticReport-open.html) request the returned object will contain `context.type: "DiagnosticReport"`.
+This method returns an object containing the current context of a topic. The current context is made up of one or more "top-level" contextual resources and the type of the anchor context in the `context.type` field.  For example, if the current context was established using a [`Patient-open`](3-3-patient-open.html) request the returned object will contain `context.type: "Patient"`.  If the current context was created by a [`DiagnosticReport-open`](3-13-diagnosticReport-open.html) request the returned object will contain `context.type: "DiagnosticReport"`.
 
 Field | Optionality | Type | Description
 ---   | --- | --- | ---
