@@ -92,12 +92,6 @@ pages:
     title: Glossary
   6_change-log.md:
     title: Change log
-<<<<<<< HEAD
-  7_open-issues.md:
-    title: Open Issues
-
-=======
->>>>>>> QaErrorsEventStructure
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
