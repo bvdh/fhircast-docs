@@ -1,5 +1,5 @@
 !!! info "Implementer guidance"
-    This page contains guidance to implementers and is not part of the normative-track [FHIRcast specification](../specification/STU2).
+    This page contains guidance to implementers and is not part of the normative-track of the FHIRcast specification.
 
 ### Considerations for application with simultaneous contexts
 

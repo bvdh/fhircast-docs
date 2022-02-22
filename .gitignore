@@ -20,3 +20,10 @@ input-cache/
 output/
 temp/
 template/
+docker/Dockerfile
+docker/Dockerfile
+docker/nginx.conf
+Dockerfile
+Dockerfile
+updateWebsite.sh
+nginx.conf

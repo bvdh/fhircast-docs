@@ -1,6 +1,5 @@
-
 > info "Implementer guidance"
-> This page contains guidance to implementers and is not part of the normative-track [FHIRcast specification](../specification/STU2).
+> This page contains guidance to implementers and is not part of the normative-track.
 
 A FHIRcast Hub uses a unique `hub.topic` session id to identify a single session across the Hub, subscribing and driving applications which are engaged in the shared session. The `hub.topic` must be known by a system for it to participate in the session. Typically, the Hub defines the `hub.topic`.
 
@@ -51,6 +50,7 @@ Following the OAuth2.0 handshake, the authorization server returns the FHIRcast 
   "encounter": "456",
   "hub.url" : "https://hub.example.com",
   "hub.topic": "2e5e1b95-5c7f-4884-b19a-0b058699318b"
+  "hub.topic": "fdb2f928-5546-4f52-87a0-0648e9ded065"
 }
 ```
 
@@ -81,7 +81,7 @@ In this scenario, the user authorizes the app to synchronize to her session by a
   "patient":  "123",
   "expires_in": 3600,
   "encounter": "456",
-  "fhirContext": ["ImagingStudy/789"],
+  "imagingstudy": "789",
   "hub.url" : "https://hub.example.com",
   "hub.topic": "fdb2f928-5546-4f52-87a0-0648e9ded065",
 }

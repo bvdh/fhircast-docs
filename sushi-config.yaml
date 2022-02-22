@@ -7,6 +7,7 @@ canonical: http://hl7.org/fhir/uv/fhircast/ImplementationGuide/hl7.fhir.uv.fhirc
 name: FHIRcast
 status: draft
 version: current
+jurisdiction: #hl7.fhir.uv.fhircast
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: ci-build
@@ -91,9 +92,12 @@ pages:
     title: Glossary
   6_change-log.md:
     title: Change log
+<<<<<<< HEAD
   7_open-issues.md:
     title: Open Issues
 
+=======
+>>>>>>> QaErrorsEventStructure
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
