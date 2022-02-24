@@ -1,6 +1,6 @@
 FHIRcast describes a workflow event subscription and notification scheme with the goal of improving a clinician's workflow across multiple disparate applications. The set of events defined in this specification is not a closed set; anyone is able to define new events to fit specific use cases and are encouraged to propose those events to the community for standardization.
 
-New events are proposed in a prescribed format using the [documentation template](3-1-template.html) by submitting a [pull request](https://github.com/fhircast/docs/tree/master). FHIRcast events are versioned, and mature according to the [Event Maturity Model](3-0-EventMaturityModel.html).
+New events are proposed in a prescribed format using the [documentation template](3-1-heartbeat.html) by submitting a [pull request](https://github.com/fhircast/docs/tree/master). FHIRcast events are versioned, and mature according to the [Event Maturity Model](3-0-EventMaturityModel.html).
 
 FHIRcast events do not communicate previous state. For a given event, opens and closes are complete replacements of previous communicated events, not "deltas". Understanding an event SHALL not require receiving a previous or future event.
 
@@ -78,8 +78,8 @@ FHIRcast supports all events that follow this format. For the most common events
 
 This event category contains events required to maintain the FHIRcast network. The main events in this category are:
 
-| [`syncerror`](3-8-syncerror.html) | indicates refusal to follow context or inability to deliver an event
-| [`heartbeat`](3-11-heartbeat.html) | for monitoring the connection to the hub
+| [`syncerror`]( 3-2-1-syncerror.html) | indicates refusal to follow context or inability to deliver an event
+| [`heartbeat`](3-2-2-heartbeat.html) | for monitoring the connection to the hub
 
 #### Selection events
 

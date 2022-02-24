@@ -24,9 +24,9 @@ Applications operating in a multi-anchor environment can be divided in controlle
 
 Follower applications SHALL follow context changes indicated by Controller applications or indicate so by indicating a `syncerror`.
 
-Controller application SHALL only send context-change events of resources that are in scope of anchor-types they follow. When the current resource of a derived context changes they SHALL change context of the anchor-types they for which they are controller accordingly, or indicate refusal by sending an `sync-error`.
+Controller application SHALL only send context-change events of resources that are in scope of anchor-types they follow. When the current resource of a derived context changes they SHALL change context of the anchor-types they for which they are controller accordingly, or indicate refusal by sending an `syncerror`.
 
-An application that is controller for ImagingStudy may be a follower for Patient and Encounter. Which means it indicates what ImagingStudy is selected, but only ImagingStudies of the current Patient. When the Patient, it will close the current ImagingStudy or send a sync-error.
+An application that is controller for ImagingStudy may be a follower for Patient and Encounter. Which means it indicates what ImagingStudy is selected, but only ImagingStudies of the current Patient. When the Patient, it will close the current ImagingStudy or send a `syncerror`.
 
 There can be multiple controllers for each anchor-type. When there are no controllers in the network for the base anchor-types, these will not be selected.
 

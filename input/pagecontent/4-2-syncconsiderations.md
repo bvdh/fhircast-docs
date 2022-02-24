@@ -153,10 +153,10 @@ These Clients should resubscribe to the hub and topic. Once resubscribed, and th
 
 #### Hubs
 
-A hub that send a `syncerror` event (e.g. as it is not able to deliver an event) MAY resend this event regularly until sync has been reestablished or a newer event has been received.
+A hub that sends a `syncerror` event (e.g. as it is not able to deliver an event) MAY resend this event regularly until sync has been reestablished or a newer event has been received.
 
 ### Open topics
 
 * Do I get all sync-errors or only those related to events I subscribed to?
 * Does a hub send an `syncerror` for each client that cannot be reached or refused or is it allowed to combine them in one.
-* When the hub/application resends an context change event, is the `heartbeat` still needed?
+* When the hub/application resents an context change event, is the `heartbeat` still needed?
